@@ -1,0 +1,38 @@
+Console.WriteLine("Введите три числа:");
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberВ = Convert.ToInt32(Console.ReadLine());
+int numberС = Convert.ToInt32(Console.ReadLine());
+if (numberA>numberB)
+{
+    if(numberA>numberС)
+    {
+        Console.Write("Max:");
+        Console.Write(numberA);
+    }
+    else
+    { 
+        if(numberС>numberВ)
+        {
+            Console.Write("Max:");
+            Console.Write(numberC);
+        }
+        else
+        {
+            Console.Write("Max:");
+            Console.Write(numberB);
+        }
+    }
+}
+else
+{
+    if(numberВ>numberС)
+    {
+        Console.Write("Max:");
+        Console.Write(numberВ);
+    }
+    else
+    {
+        Console.Write("Max:");
+        Console.Write(numberC);
+    }
+}          
